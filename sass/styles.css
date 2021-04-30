@@ -1,0 +1,82 @@
+.text-platzi {
+  color: #97c93e !important;
+}
+
+#header img {
+  width: 80px;
+}
+
+#footer {
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(#273b47), color-stop(25%), to(#1e5372));
+  background: linear-gradient(90deg, #1c3643, #273b47, 25%, #1e5372);
+}
+
+#footer a {
+  color: #fff;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+#carousel .overlay .container {
+  height: 100%;
+}
+
+#carousel .overlay .row {
+  height: 100%;
+}
+
+.btn-platzi {
+  background-color: #97c93e;
+  color: #fff;
+}
+
+.btn-platzi:hover {
+  background-color: #82ad36;
+}
+
+.card img {
+  width: 100%;
+  height: 320px;
+}
+
+#place-time {
+  background-color: #343a40;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#place-time h2 {
+  color: #fff;
+}
+
+#place-time p {
+  color: #fff;
+}
+
+#conviertete-en-orador abbr {
+  color: #343a40;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */

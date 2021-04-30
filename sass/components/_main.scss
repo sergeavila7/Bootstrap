@@ -1,0 +1,57 @@
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover; 
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: $overlay;
+            color: $color-claro;
+        .container{
+            height: 100%;
+        }
+        .row{
+            height: 100%;
+        }
+    }
+}
+
+.btn-platzi{
+    background-color: $color-platzi;
+    color: $color-claro;
+    &:hover{
+    background-color: $color-hover;
+    }
+}
+
+.card img{
+    width: 100%;
+    height: 320px;
+}
+
+#place-time {
+    background-color: $color-primario;
+
+    img{
+        max-width: 100%;
+    }
+    h2{
+        color: $color-claro;
+    }
+    p{
+        color: $color-claro;
+    }
+}
+
+#conviertete-en-orador abbr {
+    color: $color-primario;
+    text-decoration: none;
+}
+

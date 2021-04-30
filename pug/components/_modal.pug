@@ -1,0 +1,20 @@
+    <!----- Modal ----->
+div(class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="modalCompraTitle" aria-hidden="true")
+    div(class="modal-dialog modal-dialog-centered" role="document")
+        div(class="modal-content")
+            div(class="modal-header")
+                h5(class="modal-title" id="modalCompraTitle") Comprar tickets
+                button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                span(aria-hidden="true") &times;
+            div(class="modal-body")
+                form
+                    div(class="form-row")
+                        div(class="form-group col")
+                            div(class="input-group mb-3")
+                                div(class="input-group-prepend")
+                                span(class="input-group-text" id="basic-addon1") @
+                                input(type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1") 
+                    div(class="alert alert-warning" role="alert") Recibiras un correo de confirmacion sales sorteado.
+            div(class="modal-footer")
+                button(type="button" class="btn btn-secondary" data-dismiss="modal") Cancelar
+                button(type="button" class="btn btn-platzi") Comprar

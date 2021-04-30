@@ -1,0 +1,9 @@
+include _mixins.pug
+include _modal.pug
+<!DOCTYPE html>
+html(lang="en")
+    include _head.pug
+    body(data-spy="scroll-fade" data-target="#navbar" data-offset="80")
+        include _header.pug
+        block contenidos
+        include _footer.pug
